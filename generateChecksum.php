@@ -25,6 +25,6 @@ $paramList["MOBILE_NO"] = '9999999999'; // customer 10 digit mobile no.
 $checkSum = getChecksumFromArray($paramList,PAYTM_MERCHANT_KEY);
 $paramList["CHECKSUMHASH"] = $checkSum;
 
-print_r($checksum);
+print_r($paramList);
 
 ?>
